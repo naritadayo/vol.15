@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Shippori Mincho', serif;
+    font-size: 32px;
+    line-height: 1.5;
+    background-color: #ECE2D2;
+    border-bottom:160px solid #9AC2CB;
+}
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+a {
+    color: #000;
+    transition: 0.3s;
+}
+a:hover {
+    opacity: 0.7;
+    color: #9AC2CB;
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.page-header,
+.page-hero,
+.page-content,
+.page-footer{
+    min-width: 1280px;
+    width: 100%;
+}
+.page-header{
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    padding: 16px 0 24px;
+    background-color: #fff;
+}
+
+
+.page-header__inner{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.global-nav{
+    text-align: center;
+}
+
+
+.menu-list{
+    margin: 0 ;
+    padding: 0 ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-list__item{
+    list-style: none;  
+    width: 18%;
+    
+    }
+
+.logo{
+    border-bottom:160px solid #9AC2CB;
+
+    }
+
+    h3 {
+        position: relative;
+        font-size: 72px;
+        text-align: center;
+        margin-top: 259px;
+    }
+    
+    h2{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        color: #000;
+        opacity:5%;
+        font-size: 176px;
+        content: 'Portfolio';
+        z-index: -1;
+        padding: 24px 24px 8px 24px;
+        margin-top: 144px;
+        display: flex;
+        text-align: center; 
+    }
+
+    
+.Pf-menu-li{
+ 
+  color: #000;
+  margin-top: 240px;  
+  text-align: center; 
+  justify-content: center;
+  margin-bottom: 240px;
+}
+
+.Pf-menu-li-item{
+    margin-bottom: 32px;
+}
+
+h4{
+    text-align: center;
+    margin-top: 240px;
+    font-size: 48px;  
+}
+
+.impressions-img{
+    max-width: 1120px;
+    margin: 80px auto;
+}
+
+
+
+.calling-card-img{
+    max-width: 1120px;
+    margin: 80px auto;
+}
+
+.typesetting-html-img{
+    max-width: 1120px;
+    max-height: 700px;
+    overflow: scroll;
+    margin: 80px auto;
+}
+
+.figma-img{
+    max-width: 1120px;
+    max-height: 700px;
+    overflow: scroll;
+    margin: 80px auto;
+}
+
+.web-coding-img{
+    max-width: 1120px;
+    max-height: 700px;
+    overflow: scroll;
+    margin: 80px auto;
+}
+
+.section{
+    margin-bottom: 200px;
+    padding: 5px 20px 10px;
+}
+
+.section h4 {
+    padding-top: 120px;
+    margin-top:-120px;
+  }
+
+h6 {
+    position: relative;
+    font-size: 72px;
+    text-align: center;
+    margin-top: 312px;
+}
+
+h5{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000;
+    opacity:5%;
+    font-size: 176px;
+    content: 'About';
+    z-index: -1;
+    padding: 24px 24px 8px 24px; 
+    display: flex;
+    text-align: center; 
+}
+
+
+.About-list{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   max-width: 1082px;
+   margin: 160px auto 40px auto;
+   padding: 24px 0px ;
+}
+
+.About-li{
+    margin-bottom: 32px;
+}
